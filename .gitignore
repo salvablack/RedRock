@@ -1,0 +1,39 @@
+# Archivos de Python / entornos virtuales
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de Streamlit (muy importante para secrets)
+.streamlit/
+secrets.toml
+config.toml   # si usas configuración local
+
+# Archivos sensibles o de desarrollo
+.env
+*.env
+API_KEY*
+secrets*
+*.key
+*.pem
+
+# Logs y temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencias instaladas (no subas node_modules o similares si usas frontend)
+node_modules/
